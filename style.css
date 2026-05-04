@@ -1,0 +1,295 @@
+/* Theme Name: ser-rolet_theme */
+/* Global (Common for every element) */
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main Division (header) */
+.headeroryg {
+  background-image: url(img/kropkipng.png);
+  height: 100vh;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.main {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  background-image: url(img/kropki2.png);
+  height: 100vh;
+  background-color: #000;
+  background-repeat-x: no-repeat;
+  background-position: left;
+  background-size: 40%;
+  color: #fff;
+  width: 50%;
+  overflow: hidden;
+  width: 100vw;
+}
+.main>div.main-left {
+  display: flex;
+  justify-content: center; align-items: center;
+  height: 100vh;
+  width: 50%;
+}
+.main>div.main-left > div {width: 80%;}
+#logoBIG {width: 90%; margin: 0 auto;  display: block;}
+
+.main>div.main-right {
+    background-image: url(img/bg3.jpg);
+    height: 100vh;
+    background-color: #000;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.maintitle {
+margin-left: 34px;
+    margin-top: 87px;
+    top: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.mainmenu2 {padding:50px 0 0 0;}
+.mainmenu2 li {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+}
+.mainmenu2 li a {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    border-radius: 13px;
+    line-height: 23px;
+    width: 100%;
+padding: 13px 0px 8px;    text-align: center;
+margin: 17px 0px;    font-weight: bold;
+    background-color: #58b17a;
+}
+
+.bottomleft {
+    position: absolute;
+    left: -138px;
+    bottom: -12px;
+    opacity: 0.5;
+    z-index: 5;
+}
+.topright {
+    position: absolute;
+right: -214px;    top: -10px;
+    opacity: 0.9;
+}
+.bottomright {
+    position: absolute;
+    right: 201px;
+    bottom: -104px;    opacity: 0.5;
+}
+.topleftsub {
+    position: absolute;
+    left: -138px;
+    bottom: -33px;
+    opacity: 0.9;
+    z-index: 5;
+}
+.bottomrightsub {
+    position: absolute;
+    right: -158px;
+    bottom: -10px;
+    opacity: 0.5;
+}
+.toprightsub {
+    position: absolute;
+    right: -160px;
+bottom: -24px;
+opacity: 0.9;
+}
+
+/* Sub division (used for alignment - box) 
+if jesli malo tresci to daj min-heigh: 100vh - dla ulozenia grafiki
+*/
+
+.main-sub {
+  position: relative; 
+  min-height: 100vh;
+  background-color: #000;
+  background-repeat-x: no-repeat;
+  background-position: left;
+  background-size: contain;
+  color: #fff;
+  overflow: hidden;
+  display: block;
+}
+.content {  padding-top: 90px; padding-bottom: 110px;}
+.subtitle {font-size: 59px; color: #57b476; font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;}
+.size1 {font-size: 19px;}
+.col1 {width: 70%; margin: 0 auto;}
+.wp-block-column.col2.is-layout-flow.wp-block-column-is-layout-flow {flex-basis: 10%;}
+.wp-block-column.col3.is-layout-flow.wp-block-column-is-layout-flow {flex-basis: 40%;}
+.wp-block-column.col5.is-layout-flow.wp-block-column-is-layout-flow {flex-basis: 30%;}
+.wp-block-columns.col5.is-layout-flow.wp-block-column-is-layout-flow {flex-basis: 30%;}
+.wp-block-column.col3.h1.is-layout-flow.wp-block-column-is-layout-flow {font-size:50px; font-weight:bold;}
+.wp-block-columns.col4 {padding-top: 68px;}
+
+.nobreak {overflow-wrap: normal; word-break: normal;}
+.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column.imglist {flex-basis: 20%;}
+.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column.imglist2 {flex-basis: 60%;}
+
+
+.bg2 {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+    height: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+.onas {
+  background-image: url(img/bl3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dotsbg {
+  background-image: url(img/kropki2.png);
+  background-color: #000;
+  background-repeat-x: no-repeat;
+  background-position: left;
+  background-size: 40%;
+}
+.leasingbg {background-image: url(img/width_374.jpg);}
+.warunkibg {background-image: url(img/warun.jpg);}
+.autanawbg {  background-color: #000; background-image: url(img/width_344hj.jpg); background-position: left;}
+
+.box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+
+
+/* Heading - Bakeit! */
+h1 {
+  font-size: 5rem;
+}
+
+/* Button - Read More */
+.read {
+  margin-top: 2rem;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+}
+
+
+#top {position: relative; background-color: white; z-index: 10;}
+#top #top2 {position: relative; display: flex;}
+#top2 > div {position: relative;}
+#logo {    
+  margin: 3px;
+  height: 52px;
+}
+
+.navbar {width: 100%; padding: 0;}
+#mainmenu3 {width: 100%; display: flex;}
+#mainmenu3 ul {padding: 0px;}
+#mainmenu3 ul li {position:relative; float: left; list-style:none; margin: 0 10px;
+border: 2px solid black;
+    border-width: 0 2px 0 0px;
+    list-style: none;
+    padding: 0 12px;
+    margin: 0px;}
+#mainmenu3 ul li a {font-size: 18px; color: #000; line-height: 21px; padding: 0px 0px;
+  margin: 0;font-weight: bold;}
+  #mainmenu3 ul li:last-child {border-width: 0;}
+
+@media (max-width: 1280px) {
+  .mainmenu2 {padding: 0;}
+  .subtitle {font-size: 40px;}
+}
+@media (max-width: 1199px) {
+  #mainmenu3 ul li {border-width: 0px;}
+  #mainmenu3 ul li a {padding: 6px 0px;}
+}
+
+@media (max-width: 991px) {
+.main {height: initial; width: 100%;}
+  .main {display: flex; position: relative; height: initial; min-height: 100vh; width: 100%;}
+.main>div.main-left {
+    min-height: 100vh;
+    height: initial;
+    padding-bottom: 30px;
+}
+  .main>div.main-right {
+    min-height: 100%;
+    background-size: cover;
+}
+.maintitle {margin-left: 0px; margin-top: 0px; position: relative;}
+#logoBIG {width: 100%;}
+.main>div.main-left > div {text-align: left;}
+.bottomright {display: none;}
+.autanawbg {background-image: none;}
+/*
+.autanawbg {
+  background-image: url(img/kropki2.png);
+  background-color: #000;
+  background-repeat-x: no-repeat;
+  background-position: left;
+  background-size: 40%;
+}
+*/
+.leasingbg, .warunkibg {
+    background-size: cover;
+}
+
+}
+
+@media (max-width: 767px) {
+  #logo {height: 40px;}
+  #mainmenu3 ul li a {font-size: 16px; }
+  .main>div.main-left {width: 100%;}
+  .main>div.main-left {width: 100%; min-height: 100vh; height: initial; padding-bottom: 86px;}
+  .main>div.main-right {display: none;}
+  .toprightsub, .bottomrightsub {display: none;}
+  .topleftsub {}
+}
+@media (max-width: 575px) {
+  #mainmenu3 ul li a {}
+}
+@media (min-width: 1367px) {
+  #logo {height: 86px;}
+  #mainmenu3 ul li {border-width: 0 3px 0 0px;}
+  #mainmenu3 ul li a {font-size: 22px; line-height: 25px;}
+  .topleft { top: 101px;}
+  .maintitle {top: 46px; font-size: 20px;}
+.topright {}
+.mainmenu2 li a { font-size: 20px;}
+}
+@media (min-width: 1500px) {
+.size1 {font-size: 23px;}
+.subtitle {font-size: 67px;}
+}
+@media (min-width: 1700px) {
+.size1 {font-size: 28px;}
+}
