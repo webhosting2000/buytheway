@@ -1,295 +1,214 @@
-/* Theme Name: ser-rolet_theme */
-/* Global (Common for every element) */
-* {
-  margin: 0;
-  font-family: sans-serif;
-}
+html body {margin:0;padding:0;border:0;}
+body {font-size:19px; /*font-family: Montserrat;*/}
+img {border:none}
+img.alignright { float: right; margin: 0 0 1em 1.5em; }
+img.alignleft { float: left; margin: 0 1.5em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+a {text-decoration:none}a:hover {color: #000; text-decoration:none}
+a {color:#717171;}
+a:hover {color:#000;}
+.clr {clear:both;height:0}
+::selection {background-color: #bbb;}
+.bold {font-weight: bold}
 
-a {
-  text-decoration: none;
-  color: #fff;
-}
+#top {color: #fff; font-size: 30px; padding: 0 0 60px;/*! background-color: black; *//*! display: inline; */}
+#logo {width: 260px; font-size: 30px;letter-spacing: 5px; font-weight: bold; color: #24bd05; margin-right: 40px;position: relative;top: 10px;}
+#logo:hover {color: #000}
+#logo span {color: #c6c6c6}
+#logo span:first-child {position: relative; top: 2px; color: #24bd05;font-size: 40px}
+#logo:hover span:first-child {color: #000}
 
-/* Main Division (header) */
-.headeroryg {
-  background-image: url(img/kropkipng.png);
-  height: 100vh;
-  background-color: #000;
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-}
-
-.main {
-  position: absolute;
-  display: flex;
-  top: 0;
-  left: 0;
-  background-image: url(img/kropki2.png);
-  height: 100vh;
-  background-color: #000;
-  background-repeat-x: no-repeat;
-  background-position: left;
-  background-size: 40%;
-  color: #fff;
-  width: 50%;
-  overflow: hidden;
-  width: 100vw;
-}
-.main>div.main-left {
-  display: flex;
-  justify-content: center; align-items: center;
-  height: 100vh;
-  width: 50%;
-}
-.main>div.main-left > div {width: 80%;}
-#logoBIG {width: 90%; margin: 0 auto;  display: block;}
-
-.main>div.main-right {
-    background-image: url(img/bg3.jpg);
-    height: 100vh;
-    background-color: #000;
-    background-size: 100% 100%;
-    position: absolute;
-    right: 0;
-    width: 50%;
-    background-repeat: no-repeat;
-    color: #fff;
-}
-
-.maintitle {
-margin-left: 34px;
-    margin-top: 87px;
-    top: 0;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.mainmenu2 {padding:50px 0 0 0;}
-.mainmenu2 li {
-    list-style: none;
-    padding: 0;
-    margin: 0px;
-}
-.mainmenu2 li a {
-    font-size: 18px;
-    color: #fff;
-    display: block;
-    border-radius: 13px;
-    line-height: 23px;
-    width: 100%;
-padding: 13px 0px 8px;    text-align: center;
-margin: 17px 0px;    font-weight: bold;
-    background-color: #58b17a;
-}
-
-.bottomleft {
-    position: absolute;
-    left: -138px;
-    bottom: -12px;
-    opacity: 0.5;
-    z-index: 5;
-}
-.topright {
-    position: absolute;
-right: -214px;    top: -10px;
-    opacity: 0.9;
-}
-.bottomright {
-    position: absolute;
-    right: 201px;
-    bottom: -104px;    opacity: 0.5;
-}
-.topleftsub {
-    position: absolute;
-    left: -138px;
-    bottom: -33px;
-    opacity: 0.9;
-    z-index: 5;
-}
-.bottomrightsub {
-    position: absolute;
-    right: -158px;
-    bottom: -10px;
-    opacity: 0.5;
-}
-.toprightsub {
-    position: absolute;
-    right: -160px;
-bottom: -24px;
-opacity: 0.9;
-}
-
-/* Sub division (used for alignment - box) 
-if jesli malo tresci to daj min-heigh: 100vh - dla ulozenia grafiki
-*/
-
-.main-sub {
-  position: relative; 
-  min-height: 100vh;
-  background-color: #000;
-  background-repeat-x: no-repeat;
-  background-position: left;
-  background-size: contain;
-  color: #fff;
-  overflow: hidden;
-  display: block;
-}
-.content {  padding-top: 90px; padding-bottom: 110px;}
-.subtitle {font-size: 59px; color: #57b476; font-family: sans-serif;
-    font-style: normal;
-    font-weight: 800;}
-.size1 {font-size: 19px;}
-.col1 {width: 70%; margin: 0 auto;}
-.wp-block-column.col2.is-layout-flow.wp-block-column-is-layout-flow {flex-basis: 10%;}
-.wp-block-column.col3.is-layout-flow.wp-block-column-is-layout-flow {flex-basis: 40%;}
-.wp-block-column.col5.is-layout-flow.wp-block-column-is-layout-flow {flex-basis: 30%;}
-.wp-block-columns.col5.is-layout-flow.wp-block-column-is-layout-flow {flex-basis: 30%;}
-.wp-block-column.col3.h1.is-layout-flow.wp-block-column-is-layout-flow {font-size:50px; font-weight:bold;}
-.wp-block-columns.col4 {padding-top: 68px;}
-
-.nobreak {overflow-wrap: normal; word-break: normal;}
-.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column.imglist {flex-basis: 20%;}
-.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column.imglist2 {flex-basis: 60%;}
-
-
-.bg2 {
+header {position: relative; z-index: 5;}
+header.masthead {
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-    height: 100%;
-    min-height: 100vh;
+  background-size: auto 600px;
+  background-image: url(img/dxgfdr.jpg);
+  background-color: #aeb2b5;
+  background-position: right bottom;
+  height: 600px;
+  padding-top: 0; 
+}
+
+header.masthead>div {}
+.menu {position: relative; display: none; max-width: 540px; margin: 0 auto 48px;}
+.menu a {position: relative; display: table-cell; width: 33.333%; color: #202020; text-align: center; vertical-align: middle; border: 2px solid #d9d9d9; border-radius: 4px; box-shadow: 0 9px 6px -10px #000; font-weight: bold; background-color: #fff; padding: 20px 15px; margin-bottom: 5px;}
+.boxes {position: relative; padding-bottom: 40px; z-index: 3;}
+.boxes>div {position: relative;}
+.box-title {display: block; min-height: 50px; line-height: 40px; font-weight: bold;font-size: 16px; transition: 1.3s;overflow: hidden; padding: 4px;}
+.box-title {position: absolute; left: 0; top: 0px; width: 100%; color: #000; padding: 20px;}
+.box-title img {width: 40px}
+.title-btn {position: absolute; top: -40px; right: 20px; background-color: #e3e3e3; padding: 0 11px; border-radius: 29px;transition: 0.3s;}
+.title-btn img {width: 18px; }
+.pyt-czy-odp>div:hover .title-btn, .strony-internetowe>div:hover .title-btn { top: 19px;}
+.strony-internetowe .title-btn {background-color: #fff22f;}
+
+.masthead-text {color: #6a6a6a;}
+.masthead-text span {font-size: 23px; padding: 10px; width: 600px; text-transform: uppercase; letter-spacing: 3px; background-color: #f0f0f0d9; line-height: 60px;}
+header.masthead h1 {width: 580px; color: #e6e6e6; font-weight: bold; font-size: 27px; line-height: 50px; padding: 0; padding-top: 200px;}
+header.masthead h1 span {color: white; background-color: #a2a2a2b0;
+padding: 10px;
+display: block;
+width: 600px;text-shadow: 0 0 10px black;}
+
+#mainNav .navbar-nav .nav-item .nav-link,#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {color: #6c757d; font-size: 19px;}
+.oferta-btn {position: relative; top: -30px; color: #fff; font-weight: bold; border-radius: 4px; box-shadow: 0px 7px 4px -6px #a88b36; background-color: #fda805;background-image: linear-gradient(to right, #fda805, #fd5605); transition: 1.3s; padding: 10px 20px 10px;margin-top: 40px;}
+.oferta-title, .oferta-title2 {display: block; text-align: center; text-transform: uppercase; letter-spacing: 2px; font-size: 30px; color: #6a6a6a; font-weight: bold; margin-bottom: 60px;line-height: 50px;}
+
+.blok5 {color: #4F575A; line-height: 30px; padding-bottom: 40px; padding-top: 70px;border-radius: 20px;overflow: hidden;}
+.blok5-1 {background-image: url(img/photo12.jpg); background-size: cover;}
+.blok5-2 {max-width: 640px; padding: 70px 100px 70px 70px;}
+.blok5-3 {padding: 0 15px}
+.blok5-4 {padding: 0}
+.blok5-4>div {height: 100%; width: 100%; background-color: #0d003c;}
+.blok5-4>div>div {height: 100%; width: 100%; background-image: url(img/office-1209640_1920.jpg); background-size: cover; opacity: 0.6;}
+
+.str-int-page {position: relative; font-size: 19px; padding-bottom: 70px; z-index: 5; 
+padding-top: 124px;
+    background-image: url(img/dots2.png);
+    background-color: #d3d3d3;
     background-repeat: no-repeat;
+    background-size: cover;}
+.str-int-page-obr {margin: 0 auto}
+.str-int-page-title {position: relative; font-size: 20px; letter-spacing: 1px; border-bottom: 2px solid #8c8c8c; padding: 0; margin-bottom: 36px;}
+.str-int-page .box-content {letter-spacing: 1px; line-height: 30px;/*! border: 1px solid #ececec; */padding: 0px 30px 30px 30px;/*! border-radius: 17px; *//*! background-color: #f9f9f9; */}
+.maintitle {font-size: 20px; line-height: 32px;}
+
+.szfdv {background-color: burlywood;}
+.strona-zawartosc {position: relative; margin-bottom: 50px; z-index: 5;}
+.oferta-tytul {font-size: 22px; color: #6a6a6a; font-weight: bold; letter-spacing: 1px; padding: 40px 10px;}
+.oferta-kwadraty h2 {color: #004fa1}
+.oferta-kwadraty>div {position: relative; color: #676868; font-weight: bold; letter-spacing: 1px; padding: 40px 10px;}
+.oferta-kwadraty>div>div {height: 100%; line-height: 41px; padding: 52px 34px 29px;background-color: #fff; background-image: linear-gradient(to bottom, #ffffff, #00000036); box-shadow: 0px 0px 12px 0px #ccc; border-radius: 6px;}
+
+
+.oferta-kwadraty>div:last-child {margin-bottom: 0}
+.ikona1 {position: absolute; height: 89px; top: 8px; left: 29px; z-index: 4;}
+.ikona2 {height: 77px; position: absolute; top: 7px; left: 34px; z-index: 4;}
+.ikona3 {height: 87px; position: absolute; top: 8px; left: 29px; z-index: 4;}
+
+
+
+.oferta-kwadraty-22 {border-radius: 25px; background-color: #fff; background-image: linear-gradient(to bottom, #00000059, #0000); box-shadow: 0px 0px 12px 0px #ccc;}
+
+.oferta-kwadraty2 {}
+.oferta-kwadraty2>div {background-color: #21b3a5; color: #fff; font-weight: bold; letter-spacing: 1px; background-image: linear-gradient(to right,#21b3a5,#008ab5); padding: 20px 40px; margin-bottom: 2px;}
+.oferta-kwadraty2>div:last-child {margin-bottom: 0}
+
+
+#about2>div {padding-top: 50px; padding-bottom: 50px;}
+#about2 .oferta-kwadraty-title {padding-bottom:0}
+#about2 .oferta-kwadraty {padding-top:0}
+.str-int-pro2>div img {position: relative; height: 190px; width: 44%; box-shadow: 3px 3px 3px #959595; float: right; margin: 0 0px 13px 14px;}
+
+
+.oferta-tytul {text-align: center;}
+.oferta {}
+
+.footer {position: relative; background: #18667d; color:#fff; font-size: 16px; /*! box-shadow: 0px 0px 20px #386f00 inset; */ padding: 40px 0 50px; margin-top: 100px; z-index: 5;}
+.footernfn {background: #4f9c01;background: #01669c;}
+.footer .bold {display: inline-block; margin-bottom: 40px;background: #fff;}
+.footer a {display: inline-block; color:#fff;margin-bottom: 10px;}
+.footer a:hover {color:#000;}
+.footer #nazwa {letter-spacing: 5px; color: #fff; font-size: 30px; font-weight: bold; margin: 0px 0 0 0;}
+.footer #nazwa:hover {text-decoration: none;}
+.footer #nazwa img {margin: 0 21px 18px 0;}
+.footer #nazwa span {font-size: 18px}
+.footer .bold {display: block;padding: 15px;}
+.footer a.footer-a {display: inline-block; letter-spacing: 2px; font-size: 16px; padding-left: 29px;}
+.footer a.footer-a.tel {letter-spacing: 4px;}
+.copy {color: #6f6f6f; font-size:14px; padding-top: 20px; padding-bottom: 20px;}
+
+.navbar-toggler:focus {
+    box-shadow: none;}
+
+
+@media (min-width: 1200px) {
+.pyt-czy-odp {height: 768px; }
 }
-.onas {
-  background-image: url(img/bl3.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.dotsbg {
-  background-image: url(img/kropki2.png);
-  background-color: #000;
-  background-repeat-x: no-repeat;
-  background-position: left;
-  background-size: 40%;
-}
-.leasingbg {background-image: url(img/width_374.jpg);}
-.warunkibg {background-image: url(img/warun.jpg);}
-.autanawbg {  background-color: #000; background-image: url(img/width_344hj.jpg); background-position: left;}
 
-.box {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #000;
-}
-
-
-
-/* Heading - Bakeit! */
-h1 {
-  font-size: 5rem;
-}
-
-/* Button - Read More */
-.read {
-  margin-top: 2rem;
-  border: 1px solid #fff;
-  padding: 0.5rem 1rem;
-}
-
-
-#top {position: relative; background-color: white; z-index: 10;}
-#top #top2 {position: relative; display: flex;}
-#top2 > div {position: relative;}
-#logo {    
-  margin: 3px;
-  height: 52px;
-}
-
-.navbar {width: 100%; padding: 0;}
-#mainmenu3 {width: 100%; display: flex;}
-#mainmenu3 ul {padding: 0px;}
-#mainmenu3 ul li {position:relative; float: left; list-style:none; margin: 0 10px;
-border: 2px solid black;
-    border-width: 0 2px 0 0px;
-    list-style: none;
-    padding: 0 12px;
-    margin: 0px;}
-#mainmenu3 ul li a {font-size: 18px; color: #000; line-height: 21px; padding: 0px 0px;
-  margin: 0;font-weight: bold;}
-  #mainmenu3 ul li:last-child {border-width: 0;}
-
-@media (max-width: 1280px) {
-  .mainmenu2 {padding: 0;}
-  .subtitle {font-size: 40px;}
-}
 @media (max-width: 1199px) {
-  #mainmenu3 ul li {border-width: 0px;}
-  #mainmenu3 ul li a {padding: 6px 0px;}
-}
 
+
+.kontakt a {font-size: 22px;}
+}
 @media (max-width: 991px) {
-.main {height: initial; width: 100%;}
-  .main {display: flex; position: relative; height: initial; min-height: 100vh; width: 100%;}
-.main>div.main-left {
-    min-height: 100vh;
-    height: initial;
-    padding-bottom: 30px;
-}
-  .main>div.main-right {
-    min-height: 100%;
-    background-size: cover;
-}
-.maintitle {margin-left: 0px; margin-top: 0px; position: relative;}
-#logoBIG {width: 100%;}
-.main>div.main-left > div {text-align: left;}
-.bottomright {display: none;}
-.autanawbg {background-image: none;}
-/*
-.autanawbg {
-  background-image: url(img/kropki2.png);
-  background-color: #000;
-  background-repeat-x: no-repeat;
-  background-position: left;
-  background-size: 40%;
-}
-*/
-.leasingbg, .warunkibg {
-    background-size: cover;
-}
+header.masthead {background-size: initial;}
+
+.str-int-page .box-content {padding: 0px;}
+.oferta-kwadraty ul {margin: 0; padding: 0;}
 
 }
 
 @media (max-width: 767px) {
-  #logo {height: 40px;}
-  #mainmenu3 ul li a {font-size: 16px; }
-  .main>div.main-left {width: 100%;}
-  .main>div.main-left {width: 100%; min-height: 100vh; height: initial; padding-bottom: 86px;}
-  .main>div.main-right {display: none;}
-  .toprightsub, .bottomrightsub {display: none;}
-  .topleftsub {}
+header.masthead {
+  height: auto;
+  padding-bottom: 50px
 }
+header.masthead h1 {
+  font-size: 19px;
+  width: auto;
+  line-height: 32px; padding-top: 140px;}
+.masthead-text span {
+  font-size: 17px;
+  padding: 7px;
+  line-height: 40px;
+  width: auto;
+}
+#mainNav .navbar-nav .nav-item .nav-link,#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {color: #6c757d; font-size: 16px;}
+.oferta-title, .oferta-title2 {
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 27px;
+}
+header.masthead {background-size: 164%;}
+.box-content {font-size: 16px;}
+.footer #nazwa {
+    letter-spacing: 3px;
+    font-size: 20px;}
+.oferta-kwadraty2>div {padding: 10px 20px;}
+}
+
 @media (max-width: 575px) {
-  #mainmenu3 ul li a {}
 }
-@media (min-width: 1367px) {
-  #logo {height: 86px;}
-  #mainmenu3 ul li {border-width: 0 3px 0 0px;}
-  #mainmenu3 ul li a {font-size: 22px; line-height: 25px;}
-  .topleft { top: 101px;}
-  .maintitle {top: 46px; font-size: 20px;}
-.topright {}
-.mainmenu2 li a { font-size: 20px;}
+
+
+.oferta-kwadraty>div {
+    transition: transform 0.2s;
+    transform-origin: bottom;
 }
-@media (min-width: 1500px) {
-.size1 {font-size: 23px;}
-.subtitle {font-size: 67px;}
+.oferta-kwadraty>div:hover {
+    transform: scale(1.05);
 }
-@media (min-width: 1700px) {
-.size1 {font-size: 28px;}
+.oferta-kwadraty2g>div{
+  background: #e0e0e0;
+  box-shadow: 
+    10px 10px 20px #bebebe,
+    -10px -10px 20px #ffffff;
+border-radius: 40% 60% 60% 40% / 40% 40% 60% 60%;
 }
+
+.bg-anim {
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+.bg-anim2 {
+  background-size: 400% 400%;
+  animation: gradient 5s ease 0.7s infinite;
+}
+.bg-anim3 {
+  background-size: 400% 400%;
+  animation: gradient 5s ease 1.1s infinite;
+}
+.bg-anim4 {
+  background-size: 400% 400%;
+  animation: gradient 5s ease 1.5s infinite;
+}
+@keyframes gradient {
+  0% { background-position: 0% }
+  50% { background-position: 100% }
+  100% { background-position: 0% }
+}
+
