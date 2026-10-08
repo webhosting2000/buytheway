@@ -1,0 +1,35 @@
+body {font-family: 'century gothic';border:0;padding:0;margin:0;}   
+a {text-decoration:none}
+img {border:none}
+.clr {clear:both;height:0}
+
+#container {width:1017px;padding-bottom:52px;margin:34px auto 0 auto;}
+
+#left_side {float:left;width:169px;}
+.left_box {float:left;min-height:164px;width:161px;font-size:24px;color:#fff;line-height:27px;background:#389cde;border-radius:8px;box-shadow:2px 3px 4px #949494;behavior: url("js/PIE-1.0.0/PIE.htc");padding:5px 0 0 8px;margin-bottom:17px}
+.orange {background:#ff8a00}
+
+#right_side {position:relative;float:right;width:732px;font-size:17px;color:#000;background:url('../images/bg.jpg') 280px 62px no-repeat;margin-right:4px}
+#right_side #logo {position:absolute;right:0;top:-7px;}
+.title {font-size:21px}
+
+#right_side ul {list-style:none;padding:0;margin:0 0 200px 5px}
+#right_side ul>li {line-height:20px;background:url('../images/li.png') left 7px no-repeat;padding-left:20px}
+
+#projekty {width:736px;overflow:hidden}
+#projekty .title {font-size:23px}
+#projekty>div {width:750px;margin-top:18px;}
+#projekty a {position:relative;float:left;height:169px;width:169px;background:#95caed;border-radius:8px;box-shadow:2px 3px 4px #949494;behavior: url("js/PIE-1.0.0/PIE.htc");margin:0 18px 16px 0;z-index:0}
+#projekty a>img {height:169px;width:169px;border-radius:8px;behavior: url("js/PIE-1.0.0/PIE.htc");}
+#projekty a:hover {z-index:10}
+#projekty a:hover>img {opacity:.4;filter:alpha(opacity=40)}
+#projekty a:hover>span {display:block;}
+#projekty a>span {display:none;position:absolute;left:79px;top:58px;width:304px;font-size:13px;color:#000;line-height:22px;background:url('../images/transp.png');box-shadow:0 0 6px #646464;padding:11px 18px 35px}
+#projekty a>span>img {position:absolute;left:-21px;top:24px}
+#projekty a>span>span {font-style:italic;font-weight:bold;text-decoration:underline;}
+#projekty a>span>.zob_gal {position:absolute;right:24px;bottom:18px;font-style:normal;font-weight:normal;text-decoration:none;}
+
+#footer {width:100%;min-width:1017px;background:#3b3b3b}
+#footer>div {position:relative;width:1017px;font-size:14px;color:#fff;line-height:23px;padding:70px 0 27px;margin:auto}
+#footer>div span {font-size:10px}
+#footer img {position:absolute;left:0px;top:17px;}
