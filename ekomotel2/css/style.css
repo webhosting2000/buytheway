@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(oswald.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(oswald400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald-Bold-webfont';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald-Bold-webfont'), local('Oswald-Regular'), url(oswald400.woff) format('woff');
+}
+
+body {margin:0;border:0;font-family: 'Oswald', 'arial', sans-serif;font-weight:300;background:#75c4fd}   
+a {text-decoration:none}
+img {border:none}
+.clear {clear:both;height:0}
+.container {position:relative;min-width:1095px;width:100%;background:#75c4fd url(../images/bg.jpg) center bottom no-repeat;padding:0 0 121px 0;}
+#top_bg {position:absolute;left:0;top:0;height:675px;width:100%;background:url(../images/top_bg.png) center top no-repeat;}
+
+.header {position:relative;height:121px;width:1095px;margin:0 auto;z-index:2}
+.header_bg {position:relative;height:182px;background:url(../images/header.png) center top no-repeat;}
+.logo {position:absolute;left:79px;top:47px}
+.fb {position:absolute;display:block;right:93px;top:4px;}
+.fb>a>img {position:relative;top:4px;left:-2px}
+
+.header>ul {position:absolute;right:83px;top:54px;font-family: 'Oswald-Bold-webfont', 'arial', sans-serif;border:0;padding:0;margin:0;}
+.header>ul>li {float:left;list-style:none;margin:0px 12px;}
+.header>ul>li>a {display:block;font-size:20px;}
+.czerwony {color:#ff0000} .zielony {color:#0e6e38} .zloty {color:#e5d804} .niebieski {color:#3c91c7} .rozowy {color:#bf14ad} .brazowy {color:#865918}
+.header>ul>li>img {display:none}
+.header>ul>li:hover>img {display:inline}
+.header>ul>li>ul>li>a {position:relative;left:-10px;display:block;height:36px;font-size:14px;color:#fff;text-align:left;line-height:36px;background:url(../images/menu_li.png);padding:0 12px;}
+.header>ul>li>ul>li>a:hover {background:#0f6f3b}
+.header>ul>li>ul {position:absolute;display:none;list-style:none;background:url(../images/arrow.png) 19px 10px no-repeat;padding:27px 0 0 0;margin:0;}
+.header>ul>li:hover>ul {display:block;}
+
+#slider {position:relative;height:471px;width:1095px;margin:0 auto;z-index:1}
+#slider_frame {position:relative;height:448px;width:1095px;background:url(../images/slider_frame.png);}
+#slider_photo {position:absolute;left:62px;top:58px;}
+#slider_photo img {height:328px;width:971px}
+#prev {position:absolute;display:block;left:464px;bottom:38px;height:91px;width:91px;background:url(../images/slider_prev.png);}
+#next {position:absolute;display:block;left:538px;bottom:38px;height:91px;width:91px;background:url(../images/slider_next.png);}
+#top_ptaki {position:absolute;left:93px;top:5px;}
+#pinokio {position:absolute;right:32px;top:24px;}
+
+.content {position:relative;width:897px;font-size:13px;color:#5f5f5f;line-height:19px;font-family:tahoma;text-align:justify;background:url(../images/content.png) center repeat-y;padding:4px 99px 0 99px;margin:0 auto;z-index:0}
+.content_top_bg {position:absolute;left:7px;top:-75px}
+#content_btm_bg {position:absolute;left:9px;bottom:-53px}
+.title {position:relative;display:block;left:-62px;width:1021px;font-size:28px;color:#0e6e38;font-weight:400;line-height:38px;text-align:center;font-family: 'Oswald','arial', sans-serif;font-weight:400;background:url(../images/leaves.png) top center no-repeat;margin:0 0 14px 0;}
+
+.aktual_single {font-size:13px;color:#5f5f5f;padding:0 0 44px 0;}
+.aktual_single img {float:left;border:1px solid #55a01b;margin:0 26px 25px 0;}
+.aktual_single>div {padding-top:12px}
+.aktual_single>div>span {display:block;font-size:17px;color:#0080aa;margin:0 0 6px 0;}
+.aktual_single>div>.wiecej {display:block;text-align:right;margin:10px 0 0px 0;}
+.wiecej span {color:#0e6e38}
+.wiecej a {font-size:13px;color:#5f5f5f;}
+
+.title.kontakt_title {margin:17px 0 14px 0}
+.kontakt {float:left;width:310px;font-size:18px;color:#4e4e4e;font-family: 'Oswald','arial', sans-serif;line-height:24px;font-weight:300;margin:20px 0 51px 0}
+.mapa {float:right;height:168px;width:569px;margin:20px 0 51px 0}
+
+.footer {position:relative;left:-41px;min-height:84px;width:939px;font-size:12px;color:#aad4bd;font-family: 'Oswald','arial', sans-serif;background:#0e6e38;padding:40px 0 0 40px;}
+.bottom_menu ul {position:relative;height:30px;margin:0;border:0;padding:0;}
+.bottom_menu ul li {position:relative;float:left;list-style:none;margin:0 20px 0 0;}
+.bottom_menu ul li a {font-size:17px;color:#fff}
+.footer img {position:absolute;right:37px;top:44px}
+.socialm {position:absolute;right:0;top:250px;width:39px;z-index:3}
+.socialm a {display:block;margin-bottom:1px}

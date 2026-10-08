@@ -1,0 +1,47 @@
+body {background:#f5ae0d url(../images/bg.png) top repeat-x;font-family:'arial';border:0;padding:0;margin:0;}   
+a {text-decoration:none}
+img {border:none}
+.clear {clear:both;height:0}
+#headerbg {position:relative;height:693px;min-width:1208px;width:100%;background:url(../images/header.png) center top no-repeat;overflow:hidden}
+#header {position:relative;width:1208px;margin:auto;}
+
+#top_kontakt {position:absolute;left:66px;top:38px;font-size:20px;color:#fff;line-height:27px;font-weight:bold;font-family:'segoe print';}
+#top_kontakt>span {color:#fdd215}
+#lang {position:absolute;right:58px;top:18px;font-size:14px;color:#1b1b1b;}
+#lang a {margin-left:9px}
+
+#top_menu {position:absolute;left:352px;top:63px;border:0;padding:0;margin:0;}
+#top_menu>li {list-style:none;float:left;font-family:'cooper std black';}
+#top_menu>li>a {position:relative;display:block;height:50px;font-size:13px;color:#fff;line-height:40px;text-align:center;padding:5px 13px 0 13px;margin:0 5px}
+#top_menu>li>a>img {position:absolute;display:none;right:-13px;top:1px;}
+#top_menu>li>a.two_lines {line-height:19px;}
+#top_menu>li>a:hover {color:#000;text-shadow:1px 1px 0 #fbd74b;background:url('../images/menuli1.png');padding-right:0px;margin-right:18px;}
+#header>ul>li>a:hover img {display:block;}
+
+#slider {position:absolute;width:100%;left:10px;top:136px;margin-bottom:51px}
+#slider_photo {position:absolute;left:34px;top:24px;height:493px;width:1145px}
+#slider_shadow {position:absolute;left:-100px;top:478px;}
+#slider_frame {position:absolute;left:0;top:0;}
+#logo {position:absolute;right:90px;top:85px}
+
+#contentbg {position:relative;min-width:1208px;width:100%;background:#bc0303;padding-bottom:48px}
+#contentbgtop {position:absolute;left:0;top:0;height:223px;min-width:1208px;width:100%;background:#f5ae0d}
+#content {width:1114px;padding-left:94px;margin:auto;}
+
+.content_box {position:relative;float:left;height:348px;width:304px;margin-right:58px;}
+.content_box_bg1 {position:absolute;left:-37px;top:16px;height:346px;width:378px;background:url('../images/contentbox1.png');}
+.content_box_bg2 {position:absolute;left:-37px;top:16px;height:346px;width:378px;background:url('../images/contentbox2.png');}
+.content_box_inside {position:relative;height:273px;width:266px;font-size:13px;color:#383838;text-align:center;border:4px solid #e48100;border-radius:9px;box-shadow:0 0 7px #a3740a;behavior: url("js/PIE-1.0.0/PIE.htc");background:#141414;padding:67px 15px 0 15px;}
+.content_box_inside span {position:absolute;left:0;top:0;display:block;height:51px;width:100%;font-size:16px;color:#e64415;line-height:51px;font-family:'cooper std black';border-radius:5px 5px 0 0;behavior: url("js/PIE-1.0.0/PIE.htc");background:#feef18}
+.content_box_inside img {height:208px;width:267px;border-radius:10px;}
+.content_box_inside a {display:block;height:34px;width:267px;font-size:14px;color:#fff;line-height:32px;font-weight:bold;background:url('../images/btn.png');margin-top:14px}
+
+.content_box_inside form input[type='text'] {height:31px;width:255px;font-size:13px;color:#bbbbbb;line-height:30px;font-family: arial;font-weight:bold;text-align:center;border:none;border-radius:9px;background:#fff;padding:0 6px;margin-bottom:7px;}
+.content_box_inside textarea {height:56px;width:255px;font-size:13px;color:#bbbbbb;font-family: arial;font-weight:bold;text-align:center;border:none;background:#fff;border-radius:9px;scrollbar: none; scrollbar-face-color: #d5dfe4; scrollbar-highlight-color: #e7e7e7; scrollbar-arrow-color: #aaaaaa; scrollbar-track-color: #e7e7e7; scrollbar-shadow-color: #b9c2c6; scrollbar-3dlight-color: #b9c2c6; scrollbar-darkshadow-color: #b9c2c6;padding:6px 6px 0;margin:0}
+.content_box_inside input[type='submit'] {display:block;height:31px;width:108px;font-size:14px;color:#fff;line-height:18px;font-weight:bold;border:none;border-radius:9px;background:#e2001a;margin:12px auto 0 auto;}
+
+#footer {position:relative;width:1088px;font-size:12px;color:#1b1b1b;line-height:14px;padding:20px 60px 30px;margin:auto}
+#footer>img {position:absolute;left:504px;top:12px;}
+#footer p {float:left;margin-top:18px;}
+#footer p.right {float:right;margin-top:18px;}
+#footer p a {color:#e2001a;font-weight:bold}
