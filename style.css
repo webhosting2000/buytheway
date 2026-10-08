@@ -28,7 +28,7 @@ header.masthead {
   background-image: url(img/dxgfdr.jpg);
   background-color: #aeb2b5;
   background-position: right bottom;
-  height: 757px;
+  height: 600px;
   padding-top: 0; 
 }
 
@@ -46,35 +46,16 @@ header.masthead>div {}
 .strony-internetowe .title-btn {background-color: #fff22f;}
 
 .masthead-text {color: #6a6a6a;}
-.masthead-text a {
-font-size: 23px;
-    padding: 10px 20px 12px;
-    width: 600px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    background-color: #f0f0f0d9;
-    line-height: 60px;
-    border-radius: 4px;
-    color: #303030;
-  }
-header.masthead h1 {width: 580px; color: #e6e6e6; font-weight: normal;
-    font-size: 20px;
-    line-height: 35px;padding: 0; padding-top: 200px;}
-header.masthead h1 span {
-    color: #ffffff;
-    background-color: #585858d9;
-    padding: 21px;
-    display: block;
-    border-radius: 8px;
-    width: 600px;
-}
+.masthead-text span {font-size: 23px; padding: 10px; width: 600px; text-transform: uppercase; letter-spacing: 3px; background-color: #f0f0f0d9; line-height: 60px;}
+header.masthead h1 {width: 580px; color: #e6e6e6; font-weight: bold; font-size: 27px; line-height: 50px; padding: 0; padding-top: 200px;}
+header.masthead h1 span {color: white; background-color: #a2a2a2b0;
+padding: 10px;
+display: block;
+width: 600px;text-shadow: 0 0 10px black;}
 
 #mainNav .navbar-nav .nav-item .nav-link,#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {color: #6c757d; font-size: 19px;}
 .oferta-btn {position: relative; top: -30px; color: #fff; font-weight: bold; border-radius: 4px; box-shadow: 0px 7px 4px -6px #a88b36; background-color: #fda805;background-image: linear-gradient(to right, #fda805, #fd5605); transition: 1.3s; padding: 10px 20px 10px;margin-top: 40px;}
 .oferta-title, .oferta-title2 {display: block; text-align: center; text-transform: uppercase; letter-spacing: 2px; font-size: 30px; color: #6a6a6a; font-weight: bold; margin-bottom: 60px;line-height: 50px;}
-
-.oferta-kwadraty h3 {font-size: 20px; line-height: 33px;}
-h2 {font-size: 29px;}
 
 .blok5 {color: #4F575A; line-height: 30px; padding-bottom: 40px; padding-top: 70px;border-radius: 20px;overflow: hidden;}
 .blok5-1 {background-image: url(img/photo12.jpg); background-size: cover;}
@@ -100,12 +81,12 @@ padding-top: 124px;
 .oferta-tytul {font-size: 22px; color: #6a6a6a; font-weight: bold; letter-spacing: 1px; padding: 40px 10px;}
 .oferta-kwadraty h2 {color: #004fa1}
 .oferta-kwadraty>div {position: relative; color: #676868; font-weight: bold; letter-spacing: 1px; padding: 40px 10px;}
-.oferta-kwadraty>div>div {height: 100%; line-height: 41px; padding: 68px 34px 42px;background-color: #fff; background-image: linear-gradient(to bottom, #ffffff, #00000036); box-shadow: 0px 0px 12px 0px #ccc; border-radius: 6px;}
+.oferta-kwadraty>div>div {height: 100%; line-height: 41px; padding: 52px 34px 29px;background-color: #fff; background-image: linear-gradient(to bottom, #ffffff, #00000036); box-shadow: 0px 0px 12px 0px #ccc; border-radius: 6px;}
 
 
 .oferta-kwadraty>div:last-child {margin-bottom: 0}
 .ikona1 {position: absolute; height: 89px; top: 8px; left: 29px; z-index: 4;}
-.ikona2 {height: 77px; position: absolute; top: 22px; left: 34px; z-index: 4;}
+.ikona2 {height: 77px; position: absolute; top: 7px; left: 34px; z-index: 4;}
 .ikona3 {height: 87px; position: absolute; top: 8px; left: 29px; z-index: 4;}
 
 
@@ -117,20 +98,14 @@ padding-top: 124px;
 .oferta-kwadraty2>div:last-child {margin-bottom: 0}
 
 
-#about2>div {padding-top: 50px; padding-bottom: 80px;}
-#about2 .oferta-kwadraty-title {padding-bottom:0; padding-top: 70px;}
+#about2>div {padding-top: 50px; padding-bottom: 50px;}
+#about2 .oferta-kwadraty-title {padding-bottom:0}
 #about2 .oferta-kwadraty {padding-top:0}
 .str-int-pro2>div img {position: relative; height: 190px; width: 44%; box-shadow: 3px 3px 3px #959595; float: right; margin: 0 0px 13px 14px;}
 
 
 .oferta-tytul {text-align: center;}
 .oferta {}
-
-.kodow2 {display: flex;
-    justify-content: center;
-    flex-wrap: wrap;}
-.kodow2>div img {position: relative; height: 161px; width: 227px; box-shadow: 3px 3px 3px #959595; float: left;
-    margin: 0 0px 13px 30px;}
 
 .footer {position: relative; background: #18667d; color:#fff; font-size: 16px; /*! box-shadow: 0px 0px 20px #386f00 inset; */ padding: 40px 0 50px; margin-top: 100px; z-index: 5;}
 .footernfn {background: #4f9c01;background: #01669c;}
@@ -164,11 +139,8 @@ header.masthead {background-size: initial;}
 
 .str-int-page .box-content {padding: 0px;}
 .oferta-kwadraty ul {margin: 0; padding: 0;}
-.oferta-title2 {
-    font-size: 25px;}
-    .kodow2>div img {height: 96px;width: 140px;}
+
 }
-    
 
 @media (max-width: 767px) {
 header.masthead {
@@ -185,9 +157,6 @@ header.masthead h1 {
   line-height: 40px;
   width: auto;
 }
-header.masthead h1 span {
-    width: 517px;
-}
 #mainNav .navbar-nav .nav-item .nav-link,#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {color: #6c757d; font-size: 16px;}
 .oferta-title, .oferta-title2 {
   letter-spacing: 1px;
@@ -203,16 +172,6 @@ header.masthead {background-size: 164%;}
 }
 
 @media (max-width: 575px) {
-  header.masthead h1 span {
-    width: auto;
-font-size: 16px;
-    line-height: 22px;
-}
-.masthead-text a, .oferta-kwadraty h3, .oferta-kwadraty2>div {
-    font-size: 16px;}
-}
-.oferta-kwadraty h2, .maintitle {
-    font-size: 18px;
 }
 
 
