@@ -1,0 +1,124 @@
+@font-face {font-family: 'opensans';src: url('opensans-regular-webfont.eot');src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),url('opensans-regular-webfont.woff') format('woff'),url('opensans-regular-webfont.ttf') format('truetype'),url('opensans-regular-webfont.svg#opensans-regular') format('svg');}
+@font-face {font-family: 'opensans-bold';src: url('opensans-bold-webfont.eot');src: url('opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),url('opensans-bold-webfont.woff') format('woff'),url('opensans-bold-webfont.ttf') format('truetype'),url('opensans-bold-webfont.svg#opensans-bold') format('svg');}
+body {font-family:'opensans';background:url('../images/bg.png');border:0;padding:0;margin:0;}   
+a {text-decoration:none}
+img {border:none}
+.clr {clear:both;height:0}
+#header_bg {position:relative;width:100%;min-width:986px;background:#000 url('../images/bg.jpg') center top no-repeat;}
+#header {position:relative;min-height:215px;width:986px;margin:auto;}
+#logo {position:absolute;left:0;top:18px;}
+#lang {position:absolute;right:0;top:20px;}
+#lang a {margin-left:5px}
+
+#shadow {position:absolute;left:0;bottom:-120px;height:121px;width:100%;min-width:986px;background:url('../images/header_shadow.png');}
+#topmenu_bg {position:relative;top:-1px;height:50px;width:100%;min-width:986px;background:url('../images/menubg.png');margin-bottom:17px}
+#topmenu {width:986px;margin:0 auto;}
+#topmenu>ul {padding:0;margin:0}
+#topmenu>ul>li {float:left;list-style:none;}
+#topmenu>ul>li>a {position:relative;display:block;height:41px;font-size:15px;color:#ede108;line-height:34px;padding:0 13px;margin:8px 0 0 0}
+#topmenu>ul>li>a>img {position:absolute;display:none;right:-15px;top:0}
+#topmenu>ul>li>a.active {height:49px;background:url('../images/menu_hvr1.png');padding-right:0;margin-right:17px}
+#topmenu>ul>li>a.active img {display:inline}
+
+#topmenu>form {float:right;margin-top:10px}
+#topmenu>form>input[type='text'] {float:left;height:30px;width:172px;font-size:11px;color:#a8a8a8;font-style:italic;line-height:32px;border:none;background:url('../images/search_input.png');padding:0 13px;}
+#topmenu>form>input[type='submit'] {float:left;height:30px;width:29px;border:none;background:url('../images/search_btn.png');}
+#topmenu>form>a {float:left;height:30px;font-size:10px;color:#aaaaaa;line-height:30px;background:url('../images/search_zaawans_bg.png');padding:0 6px 0 3px;}
+#topmenu>form>a>img {vertical-align:middle;margin-right:4px}
+
+#container {width:100%;min-width:986px;background:url('../images/footer.jpg') center bottom no-repeat;padding-bottom:26px}
+#content {width:986px;margin:auto;}
+#content_left {position:relative;float:left;width:231px;}
+.left_box {position:relative;border:1px solid #cdcccc;background:#f3f3f3;margin-bottom:20px}
+.left_box .title {display:block;height:62px;font-size:18px;color:#fff200;line-height:58px;background:url('../images/left_box_title.png');padding-left:13px}
+.left_box_shadow {position:absolute;left:5px;bottom:-12px}
+.left_box>ul {list-style:none;padding:0;margin:0}
+.left_box>ul>li>a {position:relative;display:block;height:17px;font-size:12px;color:#5a5a5a;line-height:17px;border-bottom:1px solid #cdcccc;padding:15px 10px;}
+.left_box>ul>li>a.two_lines {height:33px;padding:7px 10px;}
+.left_box>ul>li>a>img {position:absolute;right:2px;top:9px}
+.left_box>ul>li>a.last {border:none}
+
+#newsletter {position:relative;height:102px;font-size:16px;color:#fff300;font-weight:bold;text-shadow:1px 1px 1px #20272f;background:url('../images/newsletter.jpg');padding:21px 0 0 20px;margin:0 0 20px 1px;}
+#newsletter>form {float:left;border:1px solid #875257;background:#f3f3f3;margin:9px 0 0 0;overflow:hidden}
+#newsletter>form>img {float:left;margin:6px 12px 0 5px}
+#newsletter>form>input[type="text"] {float:left;height:20px;width:103px;font-size:11px;color:#a8a8a8;font-style:italic;line-height:21px;border:none;background:none;margin:0;}
+#newsletter>form>input[type="submit"] {float:left;height:17px;width:37px;font-size:12px;color:#000;text-align:center;font-style:italic;border:none;background:#fff300;margin:3px 4px 0 12px}
+
+.rzetelna_firma {display:block;margin:18px auto}
+
+.left_box .white {color:#f3f3f3}
+.kontakt>div {padding:13px 0 3px 18px}
+.kontakt>div>span {position:relative;display:block;font-size:12px;color:#4e78a2;padding:0 0 13px 30px}
+.kontakt>div>span>img {position:absolute;left:0;top:0}
+.kontakt>div>span>a {color:#6c6c6c}
+
+#content_right {position:relative;float:right;width:732px;margin-right:4px}
+.current_cat {margin-bottom:5px}
+.current_cat>img {float:left}
+.current_cat>span {float:left;height:25px;min-width:70px;font-size:11px;color:#777777;line-height:25px;text-align:center;background:url('../images/current_cat.png');padding:0 6px}
+.belka {display:block;height:29px;font-size:17px;color:#4c4c4c;line-height:29px;border:1px solid #c4c4c4;background:#eeeeee;padding-left:10px;margin-bottom:17px}
+#product_photo {position:relative;float:left;height:213px;width:313px;background:#fff;text-align:center;margin-bottom:70px}
+#lupa {position:absolute;right:8px;bottom:8px}
+#product_info {float:right;width:398px;font-size:12px;color:#686868;line-height:20px;padding:29px 0 20px 0}
+#product_info span {font-weight:bold}
+#product_info .yellow {color:#fff300;font-weight:bold}
+.button_blue {float:left;height:36px;font-size:14px;color:#fff;font-weight:bold;line-height:35px;font-family:arial;background:url('../images/button_blue.png');border-radius:6px;box-shadow:0 8px 2px -6px #c3c3c3;behavior: url("js/PIE-1.0.0/PIE.htc");margin-top:60px;padding:0 25px}
+.title_opis_produtku {font-size:17px;color:#01306a;margin-left:6px}
+.title_komentarze {font-size:17px;color:#838383;margin-left:32px}
+.belka img {vertical-align:middle;margin:0 5px}
+
+#cechy_produktu {width:100%;border-collapse:collapse;margin-top:20px}
+#cechy_produktu tr {border:1px solid #d8d8d8;font-size:12px;color:#191919;line-height:16px;}
+#cechy_produktu td {padding:9px 20px}
+#cechy_produktu td.title {font-weight:bold;padding:20px 20px 9px 20px}
+
+#button_rezerwuj {display:block;height:113px;width:731px;font-size:31px;color:#fff;font-weight:bold;line-height:37px;text-align:center;font-family: 'opensans-bold';background:url('../images/button_rezerwuj.jpg');padding-top:42px;margin:30px 0 20px 0}
+
+#footer {position:relative;height:50px;width:986px;font-size:13px;color:#fff300;line-height:47px;text-align:center;font-family:verdana;background:#9f9f9f url('../images/footer.png');margin-top:5px}
+
+/*  podstrona tekstowa  */
+
+.text {font-size:13px;color:#5c5c5c;line-height:24px;padding-left:12px}
+.bold {font-weight:bold}
+.do_katalogu {display:block;text-align:center;}
+.do_katalogu>a {float:none;display:inline-block;margin-top:20px;}
+
+/*  strona glowna  */
+
+#slider {position:relative;height:301px;width:730px;border:1px solid #c7c7c7;margin-bottom:16px}
+#slider>img {height:301px;width:730px;}
+#slider_text {position:absolute;left:0;top:116px;width:364px;background:url('../images/slider_text.png');padding:25px 0 22px 46px;}
+#slider_text>span {display:block;font-size:16px;color:#fff;line-height:20px;border-left:3px solid #fff;}
+#slider_text>span>span {position:relative;display:block;top:-3px;padding:0 0 10px 10px}
+#slider_text>span>span>span {font-size:20px;font-family: 'opensans-bold';}
+#slider_text>span>span>span#line {position:absolute;left:12px;bottom:-3px;display:block;height:3px;width:50px;background:#fff}
+#slider_dots {position:absolute;right:12px;bottom:6px;}
+#slider_dots a {float:left;height:8px;width:8px;background:#f3f3f3;margin-left:7px}
+#slider_dots a.active {background:#fff200}
+.belka_strgl {font-size:18px;line-height:27px;padding-left:20px;margin-bottom:8px}
+.text_box {font-size:13px;color:#000;font-family:verdana;text-align:justify;line-height:14px;border-bottom:1px solid #c7c7c7;padding:10px 0 8px 0;margin-bottom:5px}
+.text_box>img {float:left;height:154px;width:229px;margin:3px 0 9px 0}
+.text_box_in {float:right;width:480px;margin-bottom:6px}
+.wiecej {float:right;clear:right;font-size:11px;font-weight:bold;color:#000;}
+.text_box.noborder {border:none}
+
+/*  lista produktow  */
+
+.belka_nr_pages {position:relative;display:block;height:31px;font-size:17px;color:#4c4c4c;line-height:29px;border-left:1px solid #c4c4c4;padding-left:10px;margin-bottom:17px;overflow:hidden}
+.belka_nr_pages>span {position:relative;float:left;z-index:2}
+.nr_pages {position:absolute;right:0;top:0;padding-left:6px;z-index:1}
+.belka_bg {position:absolute;right:100%;top:0;height:29px;width:740px;border:1px solid #c4c4c4;background:#eeeeee;}
+.nr_pages>a {position:relative;display:block;float:left;height:29px;font-size:14px;color:#1d1d1d;line-height:28px;text-align:center;background:url('../images/nr_pages.png');border:1px solid #d2d0d0;border-color:#d2d0d0 #aeaeae #aeaeae #d2d0d0;border-radius:3px;behavior: url("js/PIE-1.0.0/PIE.htc");padding:0 10px;margin-left:5px;}
+.nr_pages>.active {height:30px;color:#fff300;text-shadow:1px 1px 2px #122c20;font-weight:bold;border:none;background:url('../images/nr_pages_active.png');margin-top:1px}
+#nr_pages_bottom {position:relative;height:55px;margin:23px 0 0 0}
+#sort {position:relative;top:-7px;font-size:11px;color:#737171;border-bottom:1px solid #c0c0c0;padding:0 0 9px 12px;}
+#sort>a {font-size:11px;color:#737171;margin-right:14px}
+#sort>a>img {margin-right:4px}
+#list_products {border-bottom:1px solid #c0c0c0;margin-top:16px}
+#list_products>a {display:block;font-size:13px;color:#000;line-height:68px;font-family:verdana;margin-bottom:16px;cursor:pointer}
+#list_products>a:hover {background:#fff}
+.list_product_img {display:block;float:left;height:73px;width:72px}
+.list_product_name {display:block;float:left;height:73px;width:375px;margin-left:16px}
+.list_product_model {display:block;float:left;height:73px;width:104px}
+.list_product_brand {display:block;float:left;height:73px;}
+.list_product_wiecej {display:block;float:right;height:73px;font-size:13px;color:#023c81;line-height:68px;font-family: 'opensans-bold';margin-right:10px}
